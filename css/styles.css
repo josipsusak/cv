@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #363062;
+  font-family: 'Tangerine', cursive;
+  font-size: 6rem;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #827397;
+  font-family: 'Barlow', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #363062;
+}
+
+a {
+  color: #363062;
+  font-family: 'Merriweather', serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #DCD6F7;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  margin: 100px auto 100px auto;
+  width: 5%
+}
+
+.top-container {
+  background-color: #F4EEFF;
+  padding-top: 100px;
+  padding-bottom: 400px;
+  position: relative;
+}
+
+.middle-container {
+  background-color: #DCD6F7;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.bottom-container {
+  background-color: #827397;
+  text-align: center;
+  padding: 20px;
+}
+
+.intro {
+  line-height: 2;
+  margin: auto auto;
+  width: 50%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.right-mountain {
+  position: absolute;
+  bottom: 0;
+  left: 100px;
+}
+
+.left-mountain {
+  position: absolute;
+  bottom: 0;
+  right: 100px
+}
+
+.top-cloud-1 {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.top-cloud-2 {
+  position: absolute;
+  top: 90px;
+  left: 150px;
+}
+
+.bottom-cloud-1 {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.bottom-cloud-2 {
+  position: absolute;
+  right: 600px;
+  bottom: 200px;
+}
+
+.coding {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.engineer {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.btn {
+  background: #827397;
+  background-image: -webkit-linear-gradient(top, #827397, #363062);
+  background-image: -moz-linear-gradient(top, #827397, #363062);
+  background-image: -ms-linear-gradient(top, #827397, #363062);
+  background-image: -o-linear-gradient(top, #827397, #363062);
+  background-image: linear-gradient(to bottom, #827397, #363062);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Merriweather', serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #DCD6F7;
+  background-image: -webkit-linear-gradient(top, #DCD6F7, #A6B1E1);
+  background-image: -moz-linear-gradient(top, #DCD6F7, #A6B1E1);
+  background-image: -ms-linear-gradient(top, #DCD6F7, #A6B1E1);
+  background-image: -o-linear-gradient(top, #DCD6F7, #A6B1E1);
+  background-image: linear-gradient(to bottom, #DCD6F7, #A6B1E1);
+  text-decoration: none;
+}
+
+.footer-linkedin {
+  padding-right: 50px;
+}
+
+.about-me {
+  line-height: 2;
+  margin: 80px auto;
+  width: 40%;
+}
+
+.copyright {
+  color: #DCD6F7;
+  font-size: 0.75rem;
+  padding-top: 15px;
+}
+
+.credits {
+  font-size: 0.5rem;
+}
+/* colorhunt pallete: https://colorhunt.co/palette/f4eeffdcd6f7a6b1e1424874 */
+/* colorhunt pallete https://colorhunt.co/palette/e9d5da8273974d4c7d363062 */
